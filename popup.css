@@ -1,0 +1,72 @@
+body {
+  background: #0f172a;
+  color: #e5e7eb;
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  width: 340px;
+}
+
+.toggleheading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.single-pill {
+  background: linear-gradient(90deg,rgba(18, 179, 117, 1) 0%, rgba(58, 136, 80, 1) 14%, rgba(140, 50, 6, 1) 100%);
+  color: white;
+  padding: 8px 15px;
+  border-radius: 12px;
+  font-size: 14px;
+  cursor: pointer;
+  user-select: none;
+}
+
+
+h2 {
+  margin: 0;
+}
+
+input, select {
+  width: 96%;
+  padding: 6px;
+  margin-bottom: 6px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+}
+
+pre {
+  white-space: pre-wrap;
+  background: #111827;
+  padding: 10px;
+  border-radius: 8px;
+  max-height: 200px;
+  overflow-y: auto;
+  font-size: 14px;
+}
+
+button {
+  width: 100%;
+  margin-top: 6px;
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  gap: 6px;
+}
+
+.row button {
+  width: 50%;
+  padding: 5px 0;
+}
+
+#clear {
+  background: #7f1d1d;
+  padding: 8px 0px;
+  color: white;
+  border: none;
+}
